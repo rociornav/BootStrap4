@@ -1,0 +1,38 @@
+body{
+    background-image: url(../img/fondo4.jpeg);
+    background-size:100%;
+    /*background-size: cover; hace lo mismo que la de arriba. La clave para que se ajuste a toda la pantalla*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.container{
+    /*background-color: rgba(210, 105, 30, 0);*/
+    color: white;
+    /*height: 980px;*/
+}
+
+
+li :hover{
+    background-color: rgb(179, 165, 165);
+    
+    color: darkgoldenrod;
+    
+}
+
+ nav ul {
+width: 100%;
+margin: 0 !important;
+
+ }
+
+ nav ul li{
+    color: turquoise;
+ }
+
+ .pagination {text-align: center;}
+
+ 

@@ -1,0 +1,130 @@
+<!--Nav horizontal solo para pantallas extra grandes-->
+        <div class="row">
+            <div class="col">
+                <nav class="navbar bg-dark border d-none d-xl-block">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Active</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                        <li class="nav-item">
+                                <form class="form-inline ">
+                                        <input class="form-control" type="text" placeholder="Buscar">
+                                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                                </form>
+                        </li>
+                    </ul>
+                    
+                </nav>
+            </div>
+
+        </div>
+        <!--Nav vertical e info alumno-->
+        <div class="row">
+            <div class="col-6 flex-column">
+                <!--Nav-->
+                <!-- A vertical navbar -->
+                <nav class="navbar bg-dark border d-xl-none ">
+                    <button class="navbar-toggler  d-md-none" type="button" data-toggle="collapse"
+                        data-target="#navbar-header" aria-controls="navbar-header">
+                        &#9776;
+                    </button>
+                    <div class="collapse navbar-toggleable-xs" id="navbar-header">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <ul class="nav navbar-nav ">
+                            <li class="nav-item  ">
+                                <a class="nav-link active" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Diseño web</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Empresas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Clientes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Servidor</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Despliegues</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">HLC</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link disabled" href="#">Prácticas en Empresas</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline pull-xs-right">
+                                <input class="form-control" type="text" placeholder="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                   
+                </nav>
+            </div>
+
+
+
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Dropdown
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </div>
+
+
+
+
+            <div class="row justify-content-around bg-light rounded p-3 m-2">
+              <div class="col-md-3 position-relative">
+                <h3 class="position-absolute sobre">VENDIDO</h3>
+                <img src="img/logo.jpg" class="img-fluid rounded"/>
+                <p class="text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div class="col-md-3 position-relative">
+                <h3 class="position-absolute sobre">VENDIDO</h3>
+                <img src="img/logo.jpg" class="img-fluid rounded"/>
+                <p class="text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div class="col-md-3 position-relative">
+                <h3 class="position-absolute sobre">VENDIDO</h3>
+                <img src="img/logo.jpg" class="img-fluid rounded"/>
+                <p class="text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
